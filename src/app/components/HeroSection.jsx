@@ -28,11 +28,11 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Welcome to my website! Though I may not be the most skilled, I am
+            Welcome to my website! Though I may not be the most skilled I am
             committed to honing my craft as a developer. With determination and
             perseverance, I strive to improve and overcome challenges in the
-            world of coding. Let's embark on this journey together, where every
-            obstacle becomes an opportunity to learn and grow!
+            world of coding. Let`&apos;`s embark on this journey together, where
+            every obstacle becomes an opportunity to learn and grow!
           </p>
         </motion.div>
         <motion.div
