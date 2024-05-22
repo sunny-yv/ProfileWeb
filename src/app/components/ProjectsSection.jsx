@@ -17,9 +17,9 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
-    image: "/images/projects/2.png",
+    title: "Nextflix Clone",
+    description: "Mini project of ReactJS course in 1 month",
+    image: "/images/projects/2.jpg",
     tag: ["All", "FE"],
     gitUrl: "https://github.com/sunny-yv/FE_SWP.git",
     previewUrl: "/",
@@ -27,9 +27,9 @@ const projectsData = [
 
   {
     id: 3,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
-    image: "/images/projects/4.png",
+    title: "Sell Phone Website",
+    description: "Project about Java web using JSP",
+    image: "/images/projects/3.jpg",
     tag: ["All", "BE"],
     gitUrl: "https://github.com/sunny-yv/FE_SWP.git",
     previewUrl: "/",
@@ -67,13 +67,13 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
+          name="FE"
+          isSelected={tag === "FE"}
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="BE"
+          isSelected={tag === "BE"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
