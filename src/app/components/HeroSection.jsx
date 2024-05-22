@@ -16,7 +16,7 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
-          <h1 className="text-white mb-3 text-2xl sm:text-3xl lg:text-4xl lg:leading-normal font-extrabold">
+          <h1 className="text-black mb-3 text-2xl sm:text-3xl lg:text-4xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
               Hi, I&apos;m {data.name}
             </span>
@@ -28,7 +28,7 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
+          <p className="text-[#0d1a22] text-base sm:text-lg mb-6 lg:text-xl">
             Welcome to my website! Though I may not be the most skilled I am
             committed to honing my craft as a developer. With determination and
             perseverance, I strive to improve and overcome challenges in the

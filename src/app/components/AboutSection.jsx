@@ -8,7 +8,7 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <ul className="list-disc pl-2">
+      <ul className="list-disc pl-2 text-black">
         <li>C</li>
         <li>Java</li>
         <li>SQL Server</li>
@@ -55,11 +55,11 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="text-white" id="about">
+    <section className="text-black" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image src="/images/about.jpg" width={500} height={500} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
+          <h2 className="text-4xl font-bold text-black mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
             I am a dedicated front-end web developer with a passion for crafting
             interactive and responsive web applications. My primary expertise
@@ -80,7 +80,7 @@ const AboutSection = () => {
             excited about the opportunity to work in dynamic environments where
             I can contribute to and learn from a talented team.
           </p>
-          <div className="flex flex-row justify-start mt-8">
+          <div className="flex flex-row justify-start mt-8 text-black">
             <TabButton
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
