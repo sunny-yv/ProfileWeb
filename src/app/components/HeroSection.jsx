@@ -4,6 +4,7 @@ import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import data from "../data/data.json";
 
 const HeroSection = () => {
   return (
@@ -15,9 +16,9 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
-          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
+          <h1 className="text-white mb-3 text-2xl sm:text-3xl lg:text-4xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-              Hi, I&apos;m Le Thanh Yen Vy{" "}
+              Hi, I&apos;m {data.name}
             </span>
             <br></br>
             <TypeAnimation
@@ -31,7 +32,7 @@ const HeroSection = () => {
             Welcome to my website! Though I may not be the most skilled I am
             committed to honing my craft as a developer. With determination and
             perseverance, I strive to improve and overcome challenges in the
-            world of coding. Let`&apos;`s embark on this journey together, where
+            world of coding. Let&apos;s embark on this journey together, where
             every obstacle becomes an opportunity to learn and grow!
           </p>
         </motion.div>
@@ -44,10 +45,10 @@ const HeroSection = () => {
           <div className="rounded-full w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
               src="/images/kimnguu.png"
-              alt="hero image"
+              alt=""
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              width={250}
-              height={250}
+              width={350}
+              height={350}
             />
           </div>
         </motion.div>

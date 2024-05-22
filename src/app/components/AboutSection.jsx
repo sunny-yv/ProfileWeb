@@ -9,12 +9,11 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
-        <li>JavaScript</li>
+        <li>C</li>
+        <li>Java</li>
+        <li>SQL Server</li>
         <li>React</li>
+        <li>JavaScript</li>
       </ul>
     ),
   },
@@ -23,8 +22,7 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>FPT University</li>
       </ul>
     ),
   },
@@ -33,8 +31,14 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>Academic Skills for University Success Specialization</li>
+        <li>Java Enterprise Edition Specilization</li>
+        <li>Software Development Lifecycle Specilization</li>
+        <li>
+          Web Design for Everybody: Basics of Web Development & Coding
+          Specilization
+        </li>
+        <li>Computer Communications Specilization</li>
       </ul>
     ),
   },
@@ -53,16 +57,28 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png" width={500} height={500} />
+        <Image src="/images/about.jpg" width={500} height={500} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+            I am a dedicated front-end web developer with a passion for crafting
+            interactive and responsive web applications. My primary expertise
+            lies in front-end technologies, including JavaScript, React, Redux,
+            HTML, CSS, and Git. Additionally, I have a solid foundation in
+            backend languages such as C and Java, which enhances my ability to
+            understand and integrate with backend systems effectively.
+            <br />
+            <br />
+            I thrive on learning new technologies and continuously expanding my
+            skill set. My experience in both front-end and backend development
+            allows me to approach projects holistically, ensuring seamless user
+            experiences.
+            <br />
+            <br />
+            As a team player, I enjoy collaborating with others to bring
+            innovative ideas to life and create exceptional applications. I am
+            excited about the opportunity to work in dynamic environments where
+            I can contribute to and learn from a talented team.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
